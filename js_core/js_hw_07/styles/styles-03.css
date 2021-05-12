@@ -1,0 +1,20 @@
+#gallery {
+  margin: 0 auto;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  padding-top: 30px;
+  list-style: none;
+}
+
+.image {
+  /* width: 400px;
+  height: 300px; */
+  border-radius: 50%;
+}
+
+.image:hover {
+  transform: scale(1.2);
+}

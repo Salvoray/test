@@ -1,0 +1,14 @@
+#controls {
+  margin-bottom: 20px;
+}
+#boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  font-weight: bold;
+}
